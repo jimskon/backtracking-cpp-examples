@@ -1,7 +1,7 @@
 
 # Backtracking Examples in C++
 
-This repository contains **clean, teaching-oriented C++ examples**
+This repository contains **C++ examples**
 of classic backtracking problems.
 
 Each example follows the same pattern:
