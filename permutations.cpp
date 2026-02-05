@@ -12,7 +12,7 @@ void backtrack(const vector<int>& nums,
         return;
     }
 
-    for (int i = 0; i < nums.size(); i++) {
+    for (size_t i = 0; i < nums.size(); i++) {
         if (used[i]) continue;
 
         // CHOOSE

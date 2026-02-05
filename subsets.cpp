@@ -3,12 +3,12 @@
 #include <vector>
 using namespace std;
 
-void backtrack(int index,
-               const vector<int>& nums,
-               vector<int>& current) {
+void backtrack(size_t index,
+               const vector<size_t>& nums,
+               vector<size_t>& current) {
     if (index == nums.size()) {
         cout << "{ ";
-        for (int x : current) cout << x << " ";
+        for (size_t x : current) cout << x << " ";
         cout << "}" << endl;
         return;
     }
@@ -23,8 +23,8 @@ void backtrack(int index,
 }
 
 int main() {
-    vector<int> nums = {1, 2, 3};
-    vector<int> current;
+    vector<size_t> nums = {1, 2, 3};
+    vector<size_t> current;
 
     backtrack(0, nums, current);
 }
